@@ -14,6 +14,14 @@
       background: #f9f9f9;
       color: #333;
     }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    img.logo {
+      height: 80px;
+      margin-bottom: 10px;
+    }
     h1 {
       color: #c0392b;
       border-bottom: 2px solid #c0392b;
@@ -35,42 +43,64 @@
       text-align: center;
       color: #888;
     }
+    a {
+      color: #c0392b;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy - MagicMenu</h1>
 
-  <p><strong>Effective Date:</strong> July 1, 2025</p>
-  <p><strong>Developer:</strong> Krunal Jayale (Shasak)</p>
-  <p><strong>Contact:</strong> your-email@example.com</p>
+  <header>
+    <img class="logo" src="https://res.cloudinary.com/dcgskimn8/image/upload/v1751378543/icon_smizvh.png" alt="MagicMenu Logo">
+    <h1>Privacy Policy - MagicMenu</h1>
+    <p><strong>Effective Date:</strong> July 1, 2025</p>
+    <p><strong>Developer:</strong> Krunal Jayale (Shasak)</p>
+    <p><strong>Contact:</strong> <a href="mailto:support@magicmenu.in">support@magicmenu.in</a></p>
+  </header>
 
   <h2>1. Information We Collect</h2>
-  <p>We collect the following types of information to deliver and improve our services:</p>
+  <p>We collect the following types of information to provide core functionality:</p>
   <ul>
-    <li>Name, Email, Phone Number</li>
-    <li>Location (for delivery)</li>
-    <li>Device info (e.g. FCM token for push notifications)</li>
-    <li>Order details (for processing and support)</li>
+    <li>Name, Email, and Phone Number</li>
+    <li>Delivery Location (via device permission)</li>
+    <li>Device Token (for notifications)</li>
+    <li>Order details (items, restaurant, total)</li>
   </ul>
 
-  <h2>2. How We Use It</h2>
+  <h2>2. How We Use Your Data</h2>
   <ul>
-    <li>To deliver food to your chosen location</li>
-    <li>To send updates about your orders via email and push</li>
-    <li>To personalize your experience and improve app features</li>
+    <li>To process and deliver your food orders</li>
+    <li>To notify you about order status updates</li>
+    <li>To personalize and improve the user experience</li>
   </ul>
 
-  <h2>3. Data Sharing</h2>
-  <p>We never sell your data. We may share limited data with delivery partners to complete your orders.</p>
+  <h2>3. Third-Party Services</h2>
+  <p>We use trusted third-party services:</p>
+  <ul>
+    <li><strong>Firebase:</strong> for push notifications</li>
+    <li><strong>Zoho SMTP:</strong> for email OTPs</li>
+  </ul>
+  <p>These services may collect limited technical information as per their own privacy policies.</p>
 
-  <h2>4. Your Rights</h2>
-  <p>You can request to update or delete your account and data at any time by contacting us.</p>
+  <h2>4. Data Sharing</h2>
+  <p>We do not sell your data. We may share limited data (e.g., your delivery address and contact) with delivery partners only when necessary to complete your order.</p>
 
-  <h2>5. Contact</h2>
-  <p>Email: your-email@example.com</p>
+  <h2>5. Children’s Privacy</h2>
+  <p>This app is not intended for children under 13. We do not knowingly collect personal data from minors.</p>
+
+  <h2>6. Your Rights</h2>
+  <p>You may contact us at any time to:</p>
+  <ul>
+    <li>Update or correct your information</li>
+    <li>Request deletion of your account</li>
+  </ul>
+
+  <h2>7. Contact Us</h2>
+  <p>Email: <a href="mailto:support@magicmenu.in">support@magicmenu.in</a></p>
 
   <footer>
-    &copy; 2025 MagicMenu | Built with ❤️ by Shasak
+    &copy; 2025 MagicMenu | Built by Shasak | <a href="https://magicmenu.onrender.com" target="_blank">magicmenu.onrender.com</a>
   </footer>
 </body>
 </html>
