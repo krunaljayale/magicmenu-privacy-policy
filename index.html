@@ -4,103 +4,162 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy - MagicMenu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f7fa;
       color: #333;
     }
+
+    .container {
+      max-width: 960px;
+      margin: 60px auto;
+      background-color: #fff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    }
+
     header {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
+
     img.logo {
       height: 80px;
-      margin-bottom: 10px;
-    }
-    h1 {
-      color: #c0392b;
-      border-bottom: 2px solid #c0392b;
-      padding-bottom: 10px;
-    }
-    h2 {
-      color: #333;
-      margin-top: 30px;
-    }
-    p, ul {
       margin-bottom: 15px;
     }
+
+    h1 {
+      font-size: 2rem;
+      color: #e74c3c;
+      border-bottom: 2px solid #e74c3c;
+      display: inline-block;
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #2c3e50;
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+
     ul {
       padding-left: 20px;
+      margin-bottom: 20px;
     }
+
+    strong {
+      color: #111;
+    }
+
+    a {
+      color: #e74c3c;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
-      margin-top: 50px;
-      font-size: 0.9em;
+      margin-top: 60px;
       text-align: center;
+      font-size: 0.9rem;
       color: #888;
     }
-    a {
-      color: #c0392b;
-      text-decoration: none;
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p, li {
+        font-size: 0.95rem;
+      }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img class="logo" src="https://res.cloudinary.com/dcgskimn8/image/upload/v1751378543/icon_smizvh.png" alt="MagicMenu Logo">
-    <h1>Privacy Policy - MagicMenu</h1>
-    <p><strong>Effective Date:</strong> July 1, 2025</p>
-    <p><strong>Developer:</strong> Krunal Jayale (Shasak)</p>
-    <p><strong>Contact:</strong> <a href="mailto:support@magicmenu.in">support@magicmenu.in</a></p>
-  </header>
+  <div class="container">
+    <header>
+      <img class="logo" src="https://res.cloudinary.com/dcgskimn8/image/upload/v1751378543/icon_smizvh.png" alt="MagicMenu Logo">
+      <h1>Privacy Policy - MagicMenu</h1>
+      <p><strong>Effective Date:</strong> July 1, 2025</p>
+      <p><strong>Developer:</strong> Krunal Jayale (Shasak)</p>
+      <p><strong>Contact:</strong> <a href="mailto:support@magicmenu.in">support@magicmenu.in</a></p>
+    </header>
 
-  <h2>1. Information We Collect</h2>
-  <p>We collect the following types of information to provide core functionality:</p>
-  <ul>
-    <li>Name, Email, and Phone Number</li>
-    <li>Delivery Location (via device permission)</li>
-    <li>Device Token (for notifications)</li>
-    <li>Order details (items, restaurant, total)</li>
-  </ul>
+    <h2>1. Information We Collect</h2>
+    <p>We collect the following types of information to provide core functionality:</p>
+    <ul>
+      <li>Name, Email, and Phone Number</li>
+      <li>Delivery Location (via device permission)</li>
+      <li>Device Token (for notifications)</li>
+      <li>Order details (items, restaurant, total)</li>
+    </ul>
 
-  <h2>2. How We Use Your Data</h2>
-  <ul>
-    <li>To process and deliver your food orders</li>
-    <li>To notify you about order status updates</li>
-    <li>To personalize and improve the user experience</li>
-  </ul>
+    <h2>2. How We Use Your Data</h2>
+    <ul>
+      <li>To process and deliver your food orders</li>
+      <li>To notify you about order status updates</li>
+      <li>To personalize and improve the user experience</li>
+    </ul>
 
-  <h2>3. Third-Party Services</h2>
-  <p>We use trusted third-party services:</p>
-  <ul>
-    <li><strong>Firebase:</strong> for push notifications</li>
-    <li><strong>Zoho SMTP:</strong> for email OTPs</li>
-  </ul>
-  <p>These services may collect limited technical information as per their own privacy policies.</p>
+    <h2>3. Third-Party Services</h2>
+    <p>We use trusted third-party services:</p>
+    <ul>
+      <li><strong>Firebase:</strong> for push notifications</li>
+      <li><strong>Zoho SMTP:</strong> for email OTPs</li>
+    </ul>
+    <p>These services may collect limited technical information as per their own privacy policies.</p>
 
-  <h2>4. Data Sharing</h2>
-  <p>We do not sell your data. We may share limited data (e.g., your delivery address and contact) with delivery partners only when necessary to complete your order.</p>
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell your data. We may share limited data (e.g., your delivery address and contact) with delivery partners only when necessary to complete your order.</p>
 
-  <h2>5. Children’s Privacy</h2>
-  <p>This app is not intended for children under 13. We do not knowingly collect personal data from minors.</p>
+    <h2>5. Children’s Privacy</h2>
+    <p>This app is not intended for children under 13. We do not knowingly collect personal data from minors.</p>
 
-  <h2>6. Your Rights</h2>
-  <p>You may contact us at any time to:</p>
-  <ul>
-    <li>Update or correct your information</li>
-    <li>Request deletion of your account</li>
-  </ul>
+    <h2>6. Your Rights</h2>
+    <p>You may contact us at any time to:</p>
+    <ul>
+      <li>Update or correct your information</li>
+      <li>Request deletion of your account</li>
+    </ul>
 
-  <h2>7. Contact Us</h2>
-  <p>Email: <a href="mailto:support@magicmenu.in">support@magicmenu.in</a></p>
+    <h2>7. Contact Us</h2>
+    <p>Email: <a href="mailto:support@magicmenu.in">support@magicmenu.in</a></p>
 
-  <footer>
-    &copy; 2025 MagicMenu | Built by Shasak | <a href="https://magicmenu.in" target="_blank">www.magicmenu.in</a>
-  </footer>
+    <footer>
+      &copy; 2025 MagicMenu &nbsp;|&nbsp; Built by Shasak &nbsp;|&nbsp; <a href="https://magicmenu.in" target="_blank">www.magicmenu.in</a>
+    </footer>
+  </div>
+
 </body>
 </html>
